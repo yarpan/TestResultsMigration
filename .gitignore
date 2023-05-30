@@ -1,0 +1,19 @@
+### .gitignore ###
+info/
+target/
+test-output/
+build/
+.gradle
+.allure
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
