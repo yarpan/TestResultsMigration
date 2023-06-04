@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group 'software.sigma'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    testRuntimeOnly group: 'org.testng', name: 'testng', version: '7.4.0'
+    // https://mvnrepository.com/artifact/org.testng/testng
+    testImplementation group: 'org.testng', name: 'testng', version: '7.4.0'
+    // https://mvnrepository.com/artifact/com.mashape.unirest/unirest-java
+    implementation group: 'com.mashape.unirest', name: 'unirest-java', version: '1.4.9'
+
+
+}
+
+test {
+    //useJUnitPlatform()
+    useTestNG()
+}
