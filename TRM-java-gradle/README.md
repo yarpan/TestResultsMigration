@@ -4,7 +4,7 @@ Test Result Migration Java (TRM)
 **Tool is designed for autocompleting Test Management Systems and Bug Tracking Systems
 by results of automation testing Framework.**
 
-*VERSION: Java + TestNG + Maven + Jira + TestRail + PractiTest + Xray*
+*VERSION: Java + TestNG + Gradle + Jira + TestRail + PractiTest + Xray*
 
 &nbsp;
 
@@ -121,7 +121,7 @@ and create API token for user
 
 ## 1.4. Framework Settings <a name="subparagraph14"></a>
 
-### Modify build.gradle file
+### Modify your build.gradle file
 
 In "dependencies" area add the implementation:
 ~~~
